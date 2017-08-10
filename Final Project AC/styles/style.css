@@ -1,0 +1,206 @@
+
+body {
+	min-width: 320px;
+}
+
+.row {
+	margin-bottom: 0px;
+}
+.header {
+	background-image: url("../images/HeaderM.png");
+	background-size: cover;
+	height: 80%;
+	background-position: center;
+	}
+
+h1 {
+	padding-left: 120px;
+	padding-top: 90px;
+}
+
+
+
+         /* SECOND SECTION */
+
+ .2nd-row {
+ 	height: 10%;
+ 	margin-bottom: 0px;
+ }
+
+	
+
+
+
+.border {
+	border: 1px solid red;
+}
+
+          /* THIRD SECTION - CAROUSEL */
+
+.sec-3 {
+	
+	border: 2px solid black;
+	
+}
+
+mount-car {
+	width: 400px;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 15px;
+
+
+}
+
+.parag {
+	padding: 10px;
+}
+
+.carousel .carousel-item {
+    width: 400px;
+
+}
+
+
+
+
+
+          /* FOURTH SECTION */
+
+ .sec-4 {
+ 	border: 2px solid black;
+ 	background-image: url("../images/TransM2.png");
+ 	background-size: cover;
+	background-position: center;
+	height: 100%
+ }         
+
+.mount-img {
+	width: 350px;
+	height: auto;
+}
+
+article {
+	border: 1px solid black;
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+         /* FIFTH SECTION */
+
+.sec-5 {
+	height: 50%;
+}
+
+.text {
+	padding: 10px;
+ 
+}
+
+.border-1 {
+	border: 1px solid white;
+	min-width: 400px;
+	max-width: 600px;
+	margin: 40px;
+	
+}
+
+.border-2 {
+	border: 1px solid white;
+	min-width: 400px;
+	max-width: 600px;
+	margin: 40px;
+	
+}
+
+
+
+         /* FOOTER SIXS SECTION */
+
+.footer-img {
+	background-image: url("../images/FooterM.png");
+	background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-width: 100%;
+    height: 35%;
+}
+
+
+.container {
+    width: 100%;
+
+}
+
+.circle {
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+	background-color: red;
+}
+
+@media (min-width: 320px) {
+
+};
+
+
+
+
+
+
+
+
+
+/* MOUNTAIN PAGE*/
+
+.img-slovenia {
+    background-image: url("../images/SloveniaM.png");
+    background-position: center;
+    background-size: cover;
+    filter:grayscale(90%);
+    opacity: 0.7;
+ 	width: 90%;
+	height: 100%;
+	margin-left: 30px;
+	
+}
+
+
+.all-items {
+	margin-top: 170px;
+	border: 1px dashed white;
+	width: 15%;
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+
+}
+
+li {
+	border:1px solid white;
+	width: 80px;
+	height: 35px;
+	margin-left: 25px;
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 5px;
+	color: white;
+	background-color: black;
+
+}
+
+.main-section {
+	border: 1px solid white;
+	width: 350px;
+	height: 300px;
+	float: right;
+	margin-top: 150px;
+	margin-right: 200px;
