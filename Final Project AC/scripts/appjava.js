@@ -1,3 +1,6 @@
+
+         /*CAROUSEL */
+
 $(document).ready(function(){
 
   $(".carousel").carousel();	
@@ -11,7 +14,7 @@ $(document).ready(function(){
   });
 
   $("#three").on("click", function(event) {
-  	window.location.href = "slovenia.html";
+  	window.location.href = "slovenia..html";
 
   });
 
@@ -23,6 +26,14 @@ $(document).ready(function(){
   	window.location.href = "slovenia.html";
   	  })
 
+
+});
+
+
+       /*  PARALLAX  */
+
+$(document).ready(function(){
+      $('.parallax').parallax();
 });
 
 

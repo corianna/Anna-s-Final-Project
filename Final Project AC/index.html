@@ -4,143 +4,174 @@
     <title>Final Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
     <script src='scripts/appjava.js'></script>
- 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
-
 <body>
-	<div class="container">
 
-                   <!-- HEADER FIRST SECTION-->
+<!-- HEADER - NAVBAR - PARALLAX-->
 
-		<div class="row">
-			<div class="col s12 header">
-			 <p> 
-			 	<h1>Headline</h1>
-			 </p>
+<div class="parallax-container">
+	<div class="navbar-fixed">
+	  <nav>
+		<div class="nav-vrapper">
+          <a href="#" class="brand-logo"> LOGO </a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          	<li> <a hrev="#home"> Home</a> </li>
+          	<li> <a hrev="#home"> Explore</a> </li>
+          	<li> <a hrev="#home"> Info</a> </li>
+          	<li> <a hrev="#home"> Contact</a> </li>
+          </ul>
 			</div>
+	  </nav>
+     </div>
+  <div class="parallax header">
+	<img src="images/header 960.png" alt="Header-img" />
+  </div>
+	 <!-- <div class="row parallax">
+		<div class="col s12 header">
+		 <p> <h1>Headline</h1> </p>
+		</div>
+	</div> -->
+</div>
+
+
+<!-- SECOND SECTION - CAROUSEL:--> 
+
+<div class="container sec-2">
+   <div class="row #fafafa grey lighten-5 center-align">
+   	<div class="col s12">
+	 
+	  <p class="teal-text text-darken-4 parag"> <h4>Choose your mountain </h4></p>
+       <p class="purple-text text-darken-2"> And get on your way </p>
+	
+      <div class="carousel">
+      	<a href="#one!"  class="carousel-item">
+         <img id="one" src="images/SloveniaM.png" alt="Slovenia" class="responsive-img z-depth-5">
+      	</a>
+
+      	<a href="#two!" class="carousel-item">
+         <img id="two" src="images/DombayM.png" alt="Dombay" class="responsive-img z-depth-5">
+      	</a>
+
+      	<a href="#three!" class="carousel-item">
+         <img id="three" src="images/TofanaM.png" alt="Tofana" class="responsive-img z-depth-5">
+      	</a>
+
+      	<a href="#four!" class="carousel-item">
+         <img id="four" src="images/ItalianM.jpg" alt="Slovenia" class="responsive-img z-depth-5">
+      	</a>
+
+      	<a href="#five!" class="carousel-item">
+         <img id="five" src="images/CanadianM.jpg" alt="Slovenia" class="responsive-img z-depth-5">
+      	</a> 			      	
+      </div>
+     
+        <section class="parag">
+        <p class="teal-text text-darken-4"> <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </h5>
+        </p>	
+        </section> 
+     </div>   
+   </div> 
+</div>
+
+
+<!-- THIRD SECTION - PARALLAX--> 
+ <div class="parallax-container">
+	<div class="row">
+	 <div class="col s12">
+	    <div class="parallax"><img src="images/Paral-2.jpg" class="paral-img">
+	    </div>
+	    <div class="banner-wrapper">
+
+		  <section class="one-half">
+		  	<h3> Heading title </h3>
+			  <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			  <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			  </p>
+		   </section>
+		   <section class="one-half">
+		  	  <h3> Heading title </h3>
+			  <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			  <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			  </p>
+		   </section>
 		</div>
 
-                     <!-- SECOND SECTION--> 
-			
-		<div class="row #fafafa grey lighten-5 center-align 2nd-row">
-		    
-		    <div class="col s12">
-		    	<p class="teal-text text-darken-4"> <h4>Choose your mountain </h4>
-		    	</p>
-					<p class="purple-text text-darken-2"> And get on your way </p>
-		    </div>
-		    
-	   </div>
-                     
+     </div>
+    </div>
+ </div>	  	
 
-                     <!-- THIRD SECTION - CAROUSEL:--> 
+<!-- FOURTH SECTION--> 
 
-		<div class="row #fafafa grey lighten-5 center-align sec-3">
-			<div class="col s12">
-		
-		      <div class="carousel">
-			      	<a href="#one!"  class="carousel-item">
-		             <img id="one" src="images/SloveniaM.png" alt="Slovenia" class="responsive-img z-depth-5">
-			      	</a>
+<div class="container">
+   <div class="row #fafafa grey lighten-5 sec-5 center-align">
+      <div class="col s6">
+	      <div class="section">
+       	  	<p class="text">A mountain is a large landform that stretches above the surrounding land in a limited area, usually in the form of a peak. A mountain is generally steeper than a hill. Mountains are formed through tectonic forces or volcanism. These forces can locally raise the surface of the earth.
+       	  	</p>
+       	  	 <p class="text"> A mountain is a large landform that stretches above the surrounding land in a limited area, usually in the form of a peak. A mountain is generally steeper than a hill. Mountains are formed through tectonic forces or volcanism. These forces can locally raise the surface of the earth.
+	          </p>
+		  </div>      
+	   </div>		       	  
 
-			      	<a href="#two!" class="carousel-item">
-		             <img id="two" src="images/DombayM.png" alt="Dombay" class="responsive-img z-depth-5">
-			      	</a>
-
-			      	<a href="#three!" class="carousel-item">
-		             <img id="three" src="images/TofanaM.png" alt="Tofana" class="responsive-img z-depth-5">
-			      	</a>
-
-			      	 <a href="#four!" class="carousel-item">
-		             <img id="four" src="images/SloveniaM.png" alt="Slovenia" class="responsive-img z-depth-5">
-			      	</a>
-
-			      	<a href="#five!" class="carousel-item">
-		             <img id="five" src="images/SloveniaM.png" alt="Slovenia" class="responsive-img z-depth-5">
-
-			      	</a> 
-			      	
-		      </div>
-
+	  <div class="col s6">
+		 <div class="section">
+       	  	<p class="text">A mountain is a large landform that stretches above the surrounding land in a limited area, usually in the form of a peak. A mountain is generally steeper than a hill. Mountains are formed through tectonic forces or volcanism. These forces can locally raise the surface of the earth.
+            </p>
+	   	  	<p class="text"> A mountain is a large landform that stretches above the surrounding land in a limited area, usually in the form of a peak. A mountain is generally steeper th an a hill. Mountains are formed through tectonic forces or volcanism. These forces can locally raise the surface of the earth.
+	        </p>
 	     </div>
-	  </div>
-	                      <!-- FOURTH SECTION--> 
+		</div>
+   </div> 
+</div>
+
+<!-- FIFTH SECTION - PARALLAX --> 
+
+<div class="parallax-container">
+  <div class="row">
+	 <div class="col s12">
+	    <div class="parallax"><img src="images/foot-image.png">
+	    </div>
+     </div>
+  </div>
+</div>
 
 
-	  	<div class="row #fafafa grey lighten-5 sec-4">
-	  		<div class="col s3">
-				</div>
-				  		
 
-				<div class="col s5">
-				  <img class="responsive-img mount-img" src="images/ImageM.png">
-		    </div>
-
-	      <div class="col s4">
-	         <article> 
-			      	<p class="parag"> A mountain is a large landform that stretches above the surrounding land in a limited area, usually in the form of a peak. A mountain is generally steeper than a hill. Mountains are formed through tectonic forces or volcanism. These forces can locally raise the surface of the earth. 
-			        </p>
-			        <p class="parag"> A mountain is a large landform that stretches above the surrounding land in a limited area, usually in the form of a peak. A mountain is generally steeper than a hill. Mountains are formed through tectonic forces or volcanism. These forces can locally raise the surface of the earth. 
-							 </p>
-
-	          </article>
-         </div>
-
-       </div>
-
-	  	                    <!-- FIFTH SECTION--> 
-
-
-       <div class="row #fafafa grey lighten-5 sec-5 center-align">
-       	  
-	       	  <div class="col s6">
-	       	  	  <div class="section border-1 z-depth-5">
-					       	  	<p class="text">A mountain is a large landform that stretches above the surrounding land in a limited area, usually in the form of a peak. A mountain is generally steeper than a hill. Mountains are formed through tectonic forces or volcanism. These forces can locally raise the surface of the earth.
-					       	  	</p>
-					       	  	 <p class="text"> A mountain is a large landform that stretches above the surrounding land in a limited area, usually in the form of a peak. A mountain is generally steeper than a hill. Mountains are formed through tectonic forces or volcanism. These forces can locally raise the surface of the earth.
-						          </p>
-						     </div>      
-	       	  </div>
-
-	       	  
-
-		       	  <div class="col s6">
-			       	    <div class="section border-2 z-depth-5">
-					       	  	<p class="text">A mountain is a large landform that stretches above the surrounding land in a limited area, usually in the form of a peak. A mountain is generally steeper than a hill. Mountains are formed through tectonic forces or volcanism. These forces can locally raise the surface of the earth.
-                      </p>
-					       	  	 <p class="text"> A mountain is a large landform that stretches above the surrounding land in a limited area, usually in the form of a peak. A mountain is generally steeper th an a hill. Mountains are formed through tectonic forces or volcanism. These forces can locally raise the surface of the earth.
-						          </p>
-				           </div>
-		       	  </div>
- 
-
-       	</div>
-
-
-                       <!-- FOOTER SIXS SECTION--> 
-
-
+     <!-- <div class="container">
       <div class="row #fafafa grey lighten-5">
-      	<div class="col s1 push s12 footer-img">
-      	
-      	</div>
+      	<div class="col s1 push s12 footer-img"> </div>
 
-
-
-
-      </div>
- 
-
-
-	</div>
+      </div> 
+	</div>  -->
 
 </body>
 </html>
