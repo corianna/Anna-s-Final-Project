@@ -1,31 +1,35 @@
 
-* {
-	margin: 0;
-	border: 0;
-	padding: 0;
-}
+
 
 body {
 	background-color: #fafafa grey lighten-5;
 	position: relative;
 }
 
+/* HEADER NAVBAR*/
+
 nav {
 	background-color: rgba(0,0,0, .4);
+	width: 100%;
 }
 
 header {
-	background-image: url("../images/Header 960.png");
+	background-image: url("../images/Head.png");
     background-position: center;
     background-size: cover;
     height: 90%;
-
 }
 
-.parallax-container {
-	height: 60%;
+section {
+	width: 100%;
 }
+.brand-logo {
+	margin-left: 3%;
 
+}
+#nav-mobile {
+	margin-right: 3%;
+}
 
 
 /* SECOND SECTION - CAROUSEL */
@@ -49,23 +53,21 @@ h5 {
 
 /* THIRD SECTION - PARALLAX*/
 
- .sec-4 {
- 	border: 2px solid black;
- 	background-image: url("../images/TransM2.png");
- 	background-size: cover;
-	background-position: center;
-	height: 100%
- }         
-.mount-img {
-	width: 350px;
-	height: auto;
+.parallax-container {
+	height: 60%;
+	opacity: 0.9;
+	width: 100%;
 }
-article {
-	border: 1px solid black;
-	margin-right: 20px;
+.container {
+    width: 100%;
+    background-color: grey;
+
 }
 .paral-img {
 	opacity: 0.8;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
 }
 h3 {
 	text-align: center;
@@ -120,20 +122,48 @@ h3 {
 	padding: 10px; 
 }
 
-.border-1 {
-	border: 1px solid white;
-	min-width: 400px;
-	max-width: 600px;
-	margin: 40px;	
+h1 {
+	text-align: center;
+	font-size: 150px;
+	margin-top: 8%;
+	color: orange;
 }
 
-.border-2 {
-	border: 1px solid white;
-	min-width: 400px;
-	max-width: 600px;
-	margin: 40px;
-	
+
+
+#article-1{
+	padding-top: 3%; 
+	text-align: justify;
 }
+#article-2 {
+	padding-right: 4%;
+	padding-left: 4%;
+	padding-bottom: 4%;
+	text-align: justify;
+}
+.animal-img {
+	width: 450px;
+	height: auto;
+}
+.float-img {
+     float:left;
+     margin-right: 4%;
+     margin-bottom: 2%;
+     margin-top: 5%;
+}
+.float-img2 {
+   float:right;
+   margin-left: 4%;
+   margin-bottom: 2%;
+  
+}
+
+.navbar-fixed {
+	position: fixed;
+}
+
+
+
 
 /* Section 5 */
 
@@ -150,33 +180,21 @@ h3 {
 h2 {
 	padding-top: 0;
 	text-align: center;
+
 }
 
 
- /* FOOTER SIXS SECTION */
+ /* FOOTER  */
 
 .footer-img {
 	
 	background-size: cover;
     background-position: center;
     width: 100%;
-    height: auto;
-    
+    height: auto;    
 }
 
 
-/* PARALLAX */
-
-
-.container {
-    width: 100%;
-
-}
-
-.parallax-container {
-	height: 60%;
-	width: 100%;
-}
 
 /* MEDIA QUERIES*/
 @media screen and (max-width: 768px) {
@@ -185,11 +203,11 @@ h2 {
 	}
 	header {
 		height: 60%;
-		width: 102%;
+		width: 100%;
 	}
 	.parallax-container {
 		height: 50%;
-		width: 102%;
+		width: 112%;
 	}
 	#small {
 		font-size: 0.6em;
@@ -210,7 +228,7 @@ h2 {
 	}
 	
 	img {
-		width: 102%;
+		width: 100%;
 		
 	}
 	h4 {
@@ -230,6 +248,7 @@ h2 {
 	}
 
 }
+
 
 
 /* --- creating Flying Headline---*/
