@@ -1,0 +1,56 @@
+img {
+	width: 326px;
+	height: auto;
+}
+
+.float-right {
+	float: right;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+.text-float {
+	float: left;
+	width: 58%;
+	text-align: justify;
+}
+
+.cotainer {
+	width: 100%;
+}
+.float-left {
+	float: left;
+	margin-top: 0%;
+	margin-right: 2%;
+	clear: both;
+}
+
+.text-float-2 {
+	margin-top: 1%;
+    text-align: justify;
+    float: right;
+    width: 58%
+
+}
+
+.float-right-2 {
+	clear: both;
+	float: right;
+    margin-top: 0%;
+}
+
+.text-float-3 {
+    float: left;
+    width: 58%;
+    margin-top: 1%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+	img {
+		width: 100%;
+	}
+	.text-float .text-float-2 .text-float-3 {
+		width: 100%;
+	}
+}

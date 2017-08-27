@@ -12,59 +12,69 @@ nav {
 	background-color: rgba(0,0,0, .4);
 	width: 100%;
 }
-
 header {
 	background-image: url("../images/Head.png");
     background-position: center;
     background-size: cover;
-    height: 90%;
+    height: 100%;
 }
-
 section {
 	width: 100%;
 }
 .brand-logo {
 	margin-left: 3%;
-
 }
 #nav-mobile {
 	margin-right: 3%;
 }
+.navbar-fixed {
+	position: fixed;
+}
 
 
-/* SECOND SECTION - CAROUSEL */
+/* SECOND SECTION - SLIDER/CAROUSEL */
+.quote{
+	text-align: center;
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-size: 20px;
+}
+.quote-name {
+	margin-left: 65%;
+    margin-bottom: 3%;
+}
+.gallery-text {
+	text-align: center;
+	margin-top: 4%;
+    margin-bottom: 5%;
+}
 
 .center-align {
 	margin-top: 10%;
 	margin-bottom: 10%;
 }
 	
-.carousel .carousel-item {
+/*.carousel .carousel-item {
     width: 400px;
 }
 .carousel {
 	width: 102%;
-}
+} */
 
-h5 {
-   margin-top: 5%;
-   text-align: center;
-}
-
-/* THIRD SECTION - PARALLAX*/
+/* THIRD/ADVENTURE SECTION - PARALLAX*/
 
 .parallax-container {
 	height: 60%;
-	opacity: 0.9;
+	opacity: ;
 	width: 100%;
 }
 .container {
     width: 100%;
-    background-color: grey;
-
 }
 .paral-img {
-	opacity: 0.8;
+	opacity: 0.9;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
@@ -89,87 +99,88 @@ h3 {
 	max-width: 1280px;
 	margin: 0 auto;
 }
-
-/* -- FOUFTH SECTION --  */
-
 .left-colum {
 	width: 50%;
 	float: left;
-	margin-left: 2%;
+	margin-left: 4%;
 	margin-bottom: 3%;
 	text-align: justify;
+	margin-top: 4%;
 }
-
 .sidebar {
-	width: 30%;
+	width: 37%;
 	float: right;
-	margin-right: 14%;
+	margin-right: 4%;
 	margin-top: 4%;
 	margin-bottom: 4%;
 }
-
 .sidebar img {
 	opacity: 0.9;
-}
-
-.kilimanjaro-pic {
-	max-width: 140%;
-}
-.sec-5 {
-	height: 50%;
 }
 .text {
 	padding: 10px; 
 }
 
-h1 {
-	text-align: center;
-	font-size: 150px;
-	margin-top: 8%;
-	color: orange;
+.adventure-name {
+	font-size: 120px;
+    margin-left: 109%;
+    margin-top: 12%;
+
 }
 
-
-
+/* FOURTH SECTION / WILD LIFE */
+h1 {
+	text-align: center;
+	color: yellow;
+	text-shadow: 4px 4px 4px #000000;
+}
 #article-1{
 	padding-top: 3%; 
 	text-align: justify;
+	width: 86%;
 }
 #article-2 {
 	padding-right: 4%;
-	padding-left: 4%;
-	padding-bottom: 4%;
+	padding-left: 14%;
 	text-align: justify;
+	width: 86%;
+	margin-bottom: 5%;
 }
 .animal-img {
-	width: 450px;
+	width: 300px;
 	height: auto;
 }
 .float-img {
-     float:left;
-     margin-right: 4%;
-     margin-bottom: 2%;
-     margin-top: 5%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 14%;
 }
 .float-img2 {
    float:right;
    margin-left: 4%;
-   margin-bottom: 2%;
-  
+   margin-bottom: 3%;
+   margin-right: 14%; 
+   margin-top: 1%;
+}
+.wildlife-name {
+	font-size: 120px;
+    margin-right: 37%;
+    margin-top: 11%;
+
 }
 
-.navbar-fixed {
-	position: fixed;
-}
 
 
 
 
-/* Section 5 */
+/* WIFTH SECTION / HIGHLIGHTS*/
 
 .img {
 	width: 100%;
 	height: auto;
+	margin-top: 4%;
 }
 .one-third {
 	width: 28%;
@@ -180,7 +191,12 @@ h1 {
 h2 {
 	padding-top: 0;
 	text-align: center;
+}
 
+.highligts-name {
+	font-size: 90px;
+    margin-top: 10%;
+}
 }
 
 
@@ -197,8 +213,16 @@ h2 {
 
 
 /* MEDIA QUERIES*/
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 420px) {
+	body {
+		width: 100%;
+	}
 	.nav-wrappper {
+		width: 100%;
+		
+	}
+	.navbar-fixed {
 		width: 100%;
 	}
 	header {
